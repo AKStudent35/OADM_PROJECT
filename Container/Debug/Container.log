@@ -1,0 +1,3 @@
+﻿  FibonnaciManager.cpp
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\Container\FibonnaciManager.cpp(7,22): warning C4244: "return": konwersja z "double" do "float", możliwa utrata danych
+  Container.vcxproj -> C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\Container\Debug\Container.exe
