@@ -87,5 +87,3 @@ void FIBMAN::Manager::PrintResult() {
 
 	std::cout << "income is equal to " << _iterationObject.ReturnResult(_iterationObject.Range1) << std::endl;
 }
-
-
