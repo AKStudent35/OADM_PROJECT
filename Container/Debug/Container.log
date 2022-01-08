@@ -1,5 +1,0 @@
-﻿  Gradient.cpp
-C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\Container\Gradient.cpp(20,141): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\Container\Gradient.cpp(29,139): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\Container\Gradient.cpp(60,93): warning C4244: "return": konwersja z "double" do "float", możliwa utrata danych
-  Container.vcxproj -> C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\Container\Debug\Container.exe
