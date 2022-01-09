@@ -40,7 +40,7 @@ void Grad4a::SingleIteration(int a) {
 	buff += GradFactor * ReturnGradValue(buff);
 	if (ReturnGradValue(buff) < 0 || buff >= Range2) {
 		ChangeFactor(-1);
-		IterationCounter = 0;
+		a = 0;
 	}
 	else {
 		GradValue = ReturnGradValue(Range1);
@@ -143,7 +143,7 @@ void Grad8a::SingleIteration(int a) {
 	buff += GradFactor * ReturnGradValue(buff);
 	if (ReturnGradValue(buff) < 0||buff>=Range2) {
 		ChangeFactor(-1);
-		IterationCounter = 0;
+		a = 0;
 	}
 	else {
 		GradValue = ReturnGradValue(Range1);

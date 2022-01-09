@@ -1,2 +1,22 @@
-﻿  fixed_container.cpp
+﻿  Grad.cpp
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(17,16): warning C4305: "+=": obcięcie z "double" do "float"
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(80,100): warning C4244: "return": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(90,138): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(111,16): warning C4305: "+=": obcięcie z "double" do "float"
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(115,18): warning C4305: "+=": obcięcie z "double" do "float"
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(183,112): warning C4244: "return": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(193,152): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(214,17): warning C4305: "+=": obcięcie z "double" do "float"
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(218,19): warning C4305: "+=": obcięcie z "double" do "float"
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(287,25): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(298,11): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(302,28): warning C4244: "-=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(329,17): warning C4305: "+=": obcięcie z "double" do "float"
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(333,19): warning C4305: "+=": obcięcie z "double" do "float"
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(376,20): warning C4305: "/=": obcięcie z "double" do "float"
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(379,20): warning C4305: "*=": obcięcie z "double" do "float"
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(402,25): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Grad.cpp(414,11): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+  fixed_container.cpp
+  Generowanie kodu...
   fixed_container.vcxproj -> C:\Users\pitfo\Desktop\Studia\OADM_PROJECT\fixed_container\Debug\fixed_container.exe

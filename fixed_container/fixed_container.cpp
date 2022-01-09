@@ -19,28 +19,30 @@ int main()
 	_fib4a.FirstIteration(a, b, c);
 	_fib4a.Iterate();
 
-	Fib8a _fib8a;
-	_fib8a.FirstIteration(a, b, c);
-	_fib8a.Iterate();
+	//Fib8a _fib8a;
+	//_fib8a.FirstIteration(a, b, c);
+	//_fib8a.Iterate();
 
 	Grad4a _grad4a;
 	_grad4a.FirstIteration(a, b, c);
 	_grad4a.Iterate();
 
 
-	//r10 a5b1
-	Grad8a _grad8a;
-	_grad8a.FirstIteration(a, b, c);
-	_grad8a.Iterate();
+	//Grad8a _grad8a;
+	//_grad8a.FirstIteration(a, b, c);
+	//_grad8a.Iterate();
 
 
 	Fib4angle _fib4angle;
 	_fib4angle.FirstIteration(a, b, c);
 	_fib4angle.Iterate();
 
-	Fib8angle _fib8angle;
-	_fib8angle.FirstIteration(a, b, c);
-	_fib8angle.Iterate();
+	//Fib8angle _fib8angle;
+	//_fib8angle.FirstIteration(a, b, c);
+	//_fib8angle.Iterate();
+
+
+
 
 	//Grad4angle _grad4angle;
 	//_grad4angle.FirstIteration(a, b, c);

@@ -42,6 +42,7 @@ void Fib4a::Iterate()
 			PrintResult();
 			break;
 		}
+		IterationCounter++;
 
 		_result1 = ReturnResult(A1);
 		_result2 = ReturnResult(A2);
@@ -108,6 +109,8 @@ void Fib8a::Iterate()
 			break;
 		}
 
+		IterationCounter++;
+
 		_result1 = ReturnResult(A1);
 		_result2 = ReturnResult(A2);
 
@@ -156,6 +159,8 @@ void Fib4angle::Iterate()
 			PrintResult();
 			break;
 		}
+
+		IterationCounter++;
 
 		_result1 = ReturnResult(A1);
 		_result2 = ReturnResult(A2);
@@ -226,6 +231,8 @@ void Fib8angle::Iterate()
 			PrintResult();
 			break;
 		}
+
+		IterationCounter++;
 
 		_result1 = ReturnResult(A1);
 		_result2 = ReturnResult(A2);
