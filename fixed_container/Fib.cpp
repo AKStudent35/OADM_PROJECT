@@ -280,3 +280,76 @@ float Fib8angle::ReturnResult(float _angle)
 
 	return buff;
 }
+
+
+
+
+
+
+void BonusFib8angle::Iterate(int _n)
+{
+	float _result1;
+	float _result2;
+
+	float A1;
+	float A2;
+
+	while (1) {
+
+		A1 = ((aRange2 - aRange1) / 3) + aRange1;
+		A2 = ((aRange2 - aRange1) * 2 / 3) + aRange1;
+
+
+		if (aRange2 - aRange1 < 0.01) {
+			Result = ReturnResult(A1,_n);
+			PrintResult();
+			break;
+		}
+
+		IterationCounter++;
+
+		_result1 = ReturnResult(A1,_n);
+		_result2 = ReturnResult(A2, _n);
+
+
+		//std::cout << _result1 << std::endl << _result2 << std::endl << A1 << std::endl << A2 << std::endl;
+
+		if (_result1 > _result2) {
+			aRange2 = A2;
+		}
+		else {
+			aRange1 = A1;
+		}
+	}
+}
+
+void BonusFib8angle::FirstIteration(float _alpha, float  _beta, float _radius)
+{
+	SetDefaultState(_alpha, _beta, _radius);
+}
+
+void BonusFib8angle::PrintResult()
+{
+	if (Result > 0) {
+		std::cout << "a= " << CalculateA(aRange1) << std::endl;
+		std::cout << "b= " << CalculateB(CalculateA(aRange1)) << std::endl;
+		std::cout << "result= " << Result << std::endl;
+		std::cout << std::endl << std::endl << std::endl;
+	}
+	else {
+		PrintWarning();
+	}
+}
+
+float BonusFib8angle::ReturnResult(float _angle,int _n)
+{
+	_angle = _angle * 3.14 / 180;
+	float buff = (powf(Radius, 3) * Alpha * _n * sinf(_angle) * sinf(_angle) *cosf(_angle)) / (tanf(0.785));
+	buff -= (powf(Radius, 3) * Alpha * _n * sinf(_angle) * sinf(_angle) * sinf(_angle)) / (tanf(0.785) * tanf(0.785));
+	buff -= 4 * Beta * _n * Radius * sinf(_angle);
+	buff -= 2 * Beta * _n * Radius * cosf(_angle);
+	buff += (4*Beta*_n*Radius*sinf(_angle)) / (tanf(0.785));
+
+
+	return buff;
+}

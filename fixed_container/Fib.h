@@ -42,3 +42,14 @@ public:
 
 
 };
+
+class BonusFib8angle :public Object {
+public:
+
+	void FirstIteration(float _alpha, float _beta, float  _radius);
+	void Iterate(int _n);
+	void PrintResult();
+	float ReturnResult(float _angle,int _n);
+
+
+};
